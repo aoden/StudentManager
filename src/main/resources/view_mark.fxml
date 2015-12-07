@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="14.0" layoutY="68.0" prefHeight="319.0" prefWidth="591.0">
+        <columns>
+          <TableColumn prefWidth="322.0" text="Subject" />
+          <TableColumn minWidth="0.0" prefWidth="262.0" text="Mark" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="14.0" layoutY="28.0" prefHeight="25.0" prefWidth="244.0" promptText="Please select a semester" />
+   </children>
+</Pane>
